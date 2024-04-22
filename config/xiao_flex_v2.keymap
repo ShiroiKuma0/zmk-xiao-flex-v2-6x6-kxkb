@@ -597,6 +597,20 @@
 
             label = "U_UMLAUT";
         };
+
+        ru_t: ru_t {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_NUMBER_1 &kp KP_NUMBER_0 &kp KP_NUMBER_9 &kp KP_NUMBER_0>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "RU_T";
+        };
     };
 
     keymap {
@@ -621,7 +635,7 @@
 &to 0   &trans      &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &sl 5     &sl 3
 &trans  &u_krouzek  &z_hacek  &a_carka  &r_hacek  &y_carka    &c_hacek  &e_hacek  &i_carka  &e_carka  &s_hacek  &sl 2
 &trans  &trans      &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &trans      &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
+&trans  &kp C       &kp Z     &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
 &trans  &trans      &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
                               &trans    &trans    &trans      &trans    &trans    &trans
                               &trans    &trans    &trans      &trans    &trans    &trans
@@ -700,7 +714,7 @@
 &to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp R   &kp U   &trans  &trans  &trans    &trans  &ru_t   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
