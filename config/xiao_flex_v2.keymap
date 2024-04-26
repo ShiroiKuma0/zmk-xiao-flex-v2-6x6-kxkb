@@ -739,6 +739,27 @@
 
             label = "RU_ZH_SHIFT";
         };
+
+        cz: cz {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp Z>;
+            label = "CZ";
+        };
+
+        en: en {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp N>;
+            label = "EN";
+        };
+
+        ru: ru {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp U>;
+            label = "RU";
+        };
     };
 
     keymap {
@@ -746,7 +767,7 @@
 
         english {
             bindings = <
-&to 1                     &kp F2                &kp F3                  &kp F4                         &kp F5             &kp F6                   &kp F7                      &kp F8           &kp F9                    &kp F10        &kp F11                &kp PLUS
+&to 1                     &kp F1                &kp F2                  &kp F3                         &kp F4             &kp F5                   &kp F7                      &kp F8           &kp F9                    &kp F10        &kp F11                &en
 &to 6                     &mt AT_SIGN NUMBER_1  &mt AMPERSAND NUMBER_2  &mt LEFT_PARENTHESIS NUMBER_3  &mt HASH NUMBER_4  &mt LEFT_BRACKET N5      &mt RIGHT_BRACKET NUMBER_6  &mt ASTERISK N7  &mt RIGHT_PARENTHESIS N8  &mt DOLLAR N9  &mt CARET N0           &kp UP_ARROW
 &sl 4                     &mt UNDERSCORE MINUS  &kp C                   &kp M                          &kp W              &kp K                    &kp Q                       &kp F            &kp R                     &kp L          &mt DOUBLE_QUOTES SQT  &kp DOWN
 &mt SEMICOLON COLON       &kp I                 &kp O                   &kp A                          &kp E              &kp V                    &kp B                       &kp T            &kp N                     &kp S          &kp H                  &kp LEFT
@@ -760,13 +781,13 @@
 
         czech {
             bindings = <
-&to 0   &trans   &trans    &trans    &trans    &trans      &trans    &trans      &trans        &trans    &sl 5            &sl 3
-&trans  &u_ring  &z_caron  &a_acute  &r_caron  &y_acute    &c_caron  &e_caron    &i_acute      &e_acute  &s_caron         &sl 2
-&trans  &trans   &trans    &trans    &trans    &trans      &trans    &bt BT_NXT  &trans        &trans    &trans           &trans
-&trans  &kp C    &kp Z     &trans    &trans    &trans      &trans    &ru_zh      &ru_zh_shift  &trans    &rgb_ug RGB_TOG  &trans
-&trans  &trans   &trans    &trans    &trans    &trans      &trans    &trans      &trans        &trans    &trans           &trans
-                           &trans    &trans    &trans      &trans    &trans      &trans
-                           &trans    &trans    &trans      &trans    &trans      &trans
+&to 0   &trans   &trans    &trans    &trans    &trans      &trans    &trans    &sl 5     &sl 2     &sl 3     &cz
+&trans  &u_ring  &z_caron  &a_acute  &r_caron  &y_acute    &c_caron  &e_caron  &i_acute  &e_acute  &s_caron  &trans
+&trans  &trans   &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
+&trans  &trans   &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
+&trans  &trans   &trans    &trans    &trans    &trans      &trans    &trans    &trans    &trans    &trans    &trans
+                           &trans    &trans    &trans      &trans    &trans    &trans
+                           &trans    &trans    &trans      &trans    &trans    &trans
             >;
         };
 
@@ -808,22 +829,22 @@
 
         german {
             bindings = <
-&trans  &trans  &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &o_diaeresis  &a_diaeresis  &trans        &trans    &trans  &trans  &trans  &s_sharp  &trans  &trans
-&trans  &trans  &trans        &trans        &u_diaeresis  &trans    &trans  &trans  &trans  &trans    &trans  &trans
-                              &trans        &trans        &trans    &trans  &trans  &trans
-                              &trans        &trans        &trans    &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &trans    &bt BT_NXT  &rgb_ug RGB_TOG  &trans  &trans    &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &trans    &trans      &trans           &trans  &trans    &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &trans    &trans      &trans           &trans  &trans    &trans  &trans
+&trans  &trans  &o_diaeresis  &a_diaeresis  &trans        &trans    &trans      &trans           &trans  &s_sharp  &trans  &trans
+&trans  &trans  &trans        &trans        &u_diaeresis  &trans    &trans      &trans           &trans  &trans    &trans  &trans
+                              &trans        &trans        &trans    &trans      &trans           &trans
+                              &trans        &trans        &trans    &trans      &trans           &trans
             >;
         };
 
         russian {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &ru
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp R   &kp U   &trans  &trans  &trans    &trans  &ru_zh  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &ru_zh  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
