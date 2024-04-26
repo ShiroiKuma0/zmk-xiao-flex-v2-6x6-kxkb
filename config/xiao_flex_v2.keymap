@@ -19,7 +19,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp E &kp KP_N1>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp E &kp KP_N1>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -33,7 +33,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp C &kp KP_N1>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp C &kp KP_N1>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -47,7 +47,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp KP_N1>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp KP_N1>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -61,7 +61,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp KP_N0>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp KP_N0>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -75,7 +75,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp E &kp KP_N4>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp E &kp KP_N4>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -89,7 +89,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp C &kp KP_N4>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp C &kp KP_N4>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -103,7 +103,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -117,7 +117,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp C>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp C>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -131,7 +131,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp F>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp F>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -145,7 +145,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp E>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N0 &kp E>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -159,7 +159,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp E &kp KP_N9>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp E &kp KP_N9>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -173,7 +173,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp C &kp KP_N9>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp C &kp KP_N9>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -187,7 +187,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp B>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp B>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -201,7 +201,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp A>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp A>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -215,7 +215,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp KP_N3>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp KP_N3>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -229,7 +229,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp KP_N2>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp KP_N2>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -243,7 +243,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp E &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp E &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -257,7 +257,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp C &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp C &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -271,7 +271,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp B>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp B>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -285,7 +285,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp A>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N1 &kp A>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -299,7 +299,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp E>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp E>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -313,7 +313,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -327,7 +327,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N8>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N8>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -341,7 +341,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N7>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N7>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -355,7 +355,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp F &kp KP_N3>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp F &kp KP_N3>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -369,7 +369,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp D &kp KP_N3>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp D &kp KP_N3>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -383,7 +383,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -397,7 +397,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp C>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp C>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -411,7 +411,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp F &kp KP_N6>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp F &kp KP_N6>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -425,7 +425,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp D &kp KP_N6>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp D &kp KP_N6>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -439,7 +439,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N2 &kp B &kp B>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N2 &kp B &kp B>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -453,7 +453,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N9>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N9>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -467,7 +467,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N8>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N8>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -481,7 +481,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N1>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N1>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -495,7 +495,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N0>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N0>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -509,7 +509,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp D &kp F>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp D &kp F>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -523,7 +523,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N5>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N5>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -537,7 +537,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N4>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N4>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -551,7 +551,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp F &kp A>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp F &kp A>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -565,7 +565,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp D &kp A>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp D &kp A>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -579,7 +579,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp B>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp B>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -593,7 +593,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp A>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp A>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -607,7 +607,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp F>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp F>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -621,7 +621,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp E>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp E>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -635,7 +635,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp F &kp C>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp F &kp C>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -649,7 +649,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp D &kp C>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp D &kp C>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -663,7 +663,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp F &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp F &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -677,7 +677,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N0 &kp D &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp D &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -691,7 +691,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp E>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp E>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -705,7 +705,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp D>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp D>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -719,7 +719,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N6>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N6>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -733,7 +733,7 @@
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp PLUS &kp KP_N0 &kp KP_N4 &kp KP_N1 &kp KP_N6>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N4 &kp KP_N1 &kp KP_N6>,
                 <&macro_release>,
                 <&kp LALT>;
 
@@ -746,7 +746,7 @@
 
         english {
             bindings = <
-&to 1                     &kp F2                &kp F3                  &kp F4                         &kp F5             &kp F6                   &kp F7                      &kp F8           &kp F9                    &kp F10        &kp F11                &kp F12
+&to 1                     &kp F2                &kp F3                  &kp F4                         &kp F5             &kp F6                   &kp F7                      &kp F8           &kp F9                    &kp F10        &kp F11                &kp PLUS
 &to 6                     &mt AT_SIGN NUMBER_1  &mt AMPERSAND NUMBER_2  &mt LEFT_PARENTHESIS NUMBER_3  &mt HASH NUMBER_4  &mt LEFT_BRACKET N5      &mt RIGHT_BRACKET NUMBER_6  &mt ASTERISK N7  &mt RIGHT_PARENTHESIS N8  &mt DOLLAR N9  &mt CARET N0           &kp UP_ARROW
 &sl 4                     &mt UNDERSCORE MINUS  &kp C                   &kp M                          &kp W              &kp K                    &kp Q                       &kp F            &kp R                     &kp L          &mt DOUBLE_QUOTES SQT  &kp DOWN
 &mt SEMICOLON COLON       &kp I                 &kp O                   &kp A                          &kp E              &kp V                    &kp B                       &kp T            &kp N                     &kp S          &kp H                  &kp LEFT
