@@ -1258,7 +1258,7 @@
             label = "RU_S";
         };
 
-        ru_r_shift: ru_r_shift {
+        ru_s_shift: ru_s_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -1269,7 +1269,7 @@
                 <&macro_release>,
                 <&kp LALT>;
 
-            label = "RU_R_SHIFT";
+            label = "RU_S_SHIFT";
         };
 
         ru_t: ru_t {
@@ -1698,6 +1698,69 @@
             bindings = <&kp R &kp U>;
             label = "RU";
         };
+
+        ru_shift: ru_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp LS(U)>;
+            label = "RU_SHIFT";
+        };
+
+        em_dash: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_NUMBER_4>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "EM_DASH";
+        };
+
+        en_dash: en_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "EN_DASH";
+        };
+
+        ru_left_quote: ru_left_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp A &kp B>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "RU_LEFT_QUOTE";
+        };
+
+        ru_right_quote: ru_right_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N0 &kp KP_N0 &kp B &kp B>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "RU_RIGHT_QUOTE";
+        };
     };
 
     keymap {
@@ -1779,13 +1842,25 @@
 
         russian {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &ru
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &ru_zh  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&to 0           &trans    &trans        &trans        &trans  &trans          &trans  &trans  &trans        &ru_shch_shift  &ru_sh_shift     &ru
+&ru_shch_shift  &ru_yu    &ru_yu_shift  &ru_yo_shift  &ru_yo  &ru_ch_shift    &ru_ch  &ru_e   &ru_ye_shift  &ru_shch        &ru_sh           &trans
+&ru_hard        &em_dash  &ru_c         &ru_m         &ru_zh  &ru_k           &ru_ya  &ru_f   &ru_r         &ru_l           &ru_right_quote  &trans
+&trans          &ru_i     &ru_o         &ru_a         &ru_ye  &ru_v           &ru_b   &ru_t   &ru_n         &ru_s           &ru_x            &trans
+&trans          &trans    &ru_soft      &ru_p         &ru_u   &ru_z           &ru_g   &ru_d   &ru_y         &ru_j           &ru_hard         &trans
+                                        &trans        &sl 7   &trans          &trans  &trans  &trans
+                                        &trans        &trans  &trans          &trans  &trans  &trans
+            >;
+        };
+
+        russian_shift {
+            bindings = <
+&trans          &trans       &trans          &trans       &trans        &trans          &trans        &trans       &trans       &trans       &trans          &ru_shift
+&trans          &trans       &trans          &trans       &trans        &trans          &trans        &trans       &trans       &trans       &trans          &trans
+&ru_hard_shift  &trans       &ru_c_shift     &ru_m_shift  &ru_zh_shift  &ru_k_shift     &ru_ya_shift  &ru_f_shift  &ru_r_shift  &ru_l_shift  &ru_left_quote  &trans
+&trans          &ru_i_shift  &ru_o_shift     &ru_a_shift  &ru_ye_shift  &ru_zh_shift    &ru_b_shift   &ru_t_shift  &ru_n_shift  &ru_s_shift  &ru_x_shift     &trans
+&trans          &trans       &ru_soft_shift  &ru_p_shift  &ru_u_shift   &ru_z_shift     &ru_g_shift   &ru_d_shift  &ru_y_shift  &ru_j_shift  &ru_hard_shift  &trans
+                                             &trans       &trans        &trans          &trans        &trans       &trans
+                                             &trans       &trans        &trans          &trans        &trans       &trans
             >;
         };
     };
