@@ -1761,6 +1761,13 @@
 
             label = "RU_RIGHT_QUOTE";
         };
+
+        sumou: sumou {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp M>;
+            label = "SUMOU";
+        };
     };
 
     keymap {
@@ -1818,11 +1825,11 @@
 
         macron {
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans           &trans           &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &i_macron_shift  &o_macron_shift  &a_macron_shift  &e_macron_shift  &trans    &trans  &trans  &trans  &trans  &okina  &trans
+&trans  &trans           &trans           &trans           &trans           &trans    &trans  &trans  &trans  &trans  &trans  &sumou
+&trans  &en_dash         &trans           &trans           &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &em_dash         &o_macron_shift  &a_macron_shift  &e_macron_shift  &trans    &trans  &trans  &trans  &trans  &okina  &trans
 &trans  &i_macron        &o_macron        &a_macron        &e_macron        &okina    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans           &u_macron_shift  &u_macron        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &i_macron_shift  &trans           &u_macron_shift  &u_macron        &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans           &trans           &trans    &trans  &trans  &trans
                                           &trans           &trans           &trans    &trans  &trans  &trans
             >;
