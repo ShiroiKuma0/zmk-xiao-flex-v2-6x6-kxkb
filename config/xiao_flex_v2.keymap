@@ -264,6 +264,34 @@
             label = "E_MACRON_SHIFT";
         };
 
+        em_dash: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_NUMBER_4>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "EM_DASH";
+        };
+
+        en_dash: en_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "EN_DASH";
+        };
+
         i_acute: i_acute {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -374,6 +402,20 @@
                 <&kp LALT>;
 
             label = "N_CARON_SHIFT";
+        };
+
+        numero: numero {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N1 &kp KP_N1 &kp KP_N6>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "NUMERO";
         };
 
         o_acute: o_acute {
@@ -1664,74 +1706,60 @@
             label = "RU_YA_SHIFT";
         };
 
-        numero: numero {
+        cz_left_quote: cz_left_quote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp KP_PLUS &kp KP_N2 &kp KP_N1 &kp KP_N1 &kp KP_N6>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp E>,
                 <&macro_release>,
                 <&kp LALT>;
 
-            label = "NUMERO";
+            label = "CZ_LEFT_QUOTE";
         };
 
-        cz: cz {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp Z>;
-            label = "CZ";
-        };
-
-        en: en {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp N>;
-            label = "EN";
-        };
-
-        ru: ru {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp R &kp U>;
-            label = "RU";
-        };
-
-        ru_shift: ru_shift {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp LS(U)>;
-            label = "RU_SHIFT";
-        };
-
-        em_dash: em_dash {
+        cz_right_quote: cz_right_quote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_NUMBER_4>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp C>,
                 <&macro_release>,
                 <&kp LALT>;
 
-            label = "EM_DASH";
+            label = "CZ_RIGHT_QUOTE";
         };
 
-        en_dash: en_dash {
+        en_left_quote: en_left_quote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_tap>,
-                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_N3>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp C>,
                 <&macro_release>,
                 <&kp LALT>;
 
-            label = "EN_DASH";
+            label = "EN_LEFT_QUOTE";
+        };
+
+        en_right_quote: en_right_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_PLUS &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp D>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "EN_RIGHT_QUOTE";
         };
 
         ru_left_quote: ru_left_quote {
@@ -1762,11 +1790,60 @@
             label = "RU_RIGHT_QUOTE";
         };
 
+        cz: cz {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp Z>;
+            label = "CZ";
+        };
+
+        cz_shift: cz_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp LS(Z)>;
+            label = "CZ_SHIFT";
+        };
+
+        en: en {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp N>;
+            label = "EN";
+        };
+
+        en_shift: en_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(N)>;
+            label = "EN_SHIFT";
+        };
+
+        ru: ru {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp U>;
+            label = "RU";
+        };
+
+        ru_shift: ru_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp LS(U)>;
+            label = "RU_SHIFT";
+        };
+
         sumou: sumou {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp M>;
             label = "SUMOU";
+        };
+
+        sumou_shift: sumou_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp LS(M)>;
+            label = "SUMOU_SHIFT";
         };
     };
 
