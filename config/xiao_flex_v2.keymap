@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -1851,13 +1852,13 @@
 
         english {
             bindings = <
-&to 1                     &kp F1                &kp F2                  &kp F3                         &kp F4             &kp F5                   &kp F6                      &kp F7           &kp F8                    &kp F9         &kp F10                &kp EQUAL
-&to 6                     &mt AT_SIGN NUMBER_1  &mt AMPERSAND NUMBER_2  &mt LEFT_PARENTHESIS NUMBER_3  &mt HASH NUMBER_4  &mt LEFT_BRACKET N5      &mt RIGHT_BRACKET NUMBER_6  &mt ASTERISK N7  &mt RIGHT_PARENTHESIS N8  &mt DOLLAR N9  &mt CARET N0           &kp UP_ARROW
-&sl 4                     &mt UNDERSCORE MINUS  &kp C                   &kp M                          &kp W              &kp K                    &kp Q                       &kp F            &kp R                     &kp L          &mt DOUBLE_QUOTES SQT  &kp DOWN
-&mt SEMICOLON COLON       &kp I                 &kp O                   &kp A                          &kp E              &kp V                    &kp B                       &kp T            &kp N                     &kp S          &kp H                  &kp LEFT
-&mt EXCLAMATION QUESTION  &mt COMMA PERIOD      &kp X                   &kp P                          &kp U              &kp Z                    &kp G                       &kp D            &kp Y                     &kp J          &mt PIPE SLASH         &kp RIGHT
-                                                                        &kp TAB                        &sk LEFT_SHIFT     &mt SPACE RET            &kp BACKSPACE               &kp SPACE        &kp RET
-                                                                        &mt GRAVE TILDE                &sk LCTRL          &mt PERCENT BACKSLASH    &mt LEFT_ALT ESCAPE         &sk RCTRL        &sk LEFT_GUI
+&to 4                       &kp F1                &kp F2                  &kp F3                         &kp F4             &kp F5                   &kp F6                      &kp F7           &kp F8                    &kp F9         &kp F10                &kp F11
+&kt EQUAL                   &mt AT_SIGN NUMBER_1  &mt AMPERSAND NUMBER_2  &mt LEFT_PARENTHESIS NUMBER_3  &mt HASH NUMBER_4  &mt LEFT_BRACKET N5      &mt RIGHT_BRACKET NUMBER_6  &mt ASTERISK N7  &mt RIGHT_PARENTHESIS N8  &mt DOLLAR N9  &mt CARET N0           &kp UP_ARROW
+&mt LESS_THAN GREATER_THAN  &mt UNDERSCORE MINUS  &kp C                   &kp M                          &kp W              &kp K                    &kp Q                       &kp F            &kp R                     &kp L          &mt DOUBLE_QUOTES SQT  &kp DOWN
+&mt SEMICOLON COLON         &kp I                 &kp O                   &kp A                          &kp E              &kp V                    &kp B                       &kp T            &kp N                     &kp S          &kp H                  &kp LEFT
+&mt EXCLAMATION QUESTION    &mt COMMA PERIOD      &kp X                   &kp P                          &kp U              &kp Z                    &kp G                       &kp D            &kp Y                     &kp J          &mt PIPE SLASH         &kp RIGHT
+                                                                          &kp TAB                        &sk LEFT_SHIFT     &mt SPACE RET            &kp BACKSPACE               &kp SPACE        &kp RET
+                                                                          &mt GRAVE TILDE                &sk LCTRL          &mt PERCENT BACKSLASH    &mt LEFT_ALT ESCAPE         &sk RCTRL        &sk LEFT_GUI
             >;
 
             label = "Default";
@@ -1901,7 +1902,7 @@
 
         macron {
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans    &sumou  &trans  &trans  &trans          &trans           &sumou
+&to 0   &to 1            &to 6            &trans           &trans           &trans    &sumou  &trans  &trans  &trans          &trans           &sumou
 &trans  &en_dash         &trans           &trans           &trans           &trans    &trans  &trans  &trans  &trans          &trans           &trans
 &trans  &em_dash         &o_macron_shift  &a_macron_shift  &e_macron_shift  &trans    &trans  &trans  &trans  &en_left_quote  &en_right_quote  &trans
 &trans  &i_macron        &o_macron        &a_macron        &e_macron        &okina    &trans  &trans  &trans  &trans          &trans           &trans
